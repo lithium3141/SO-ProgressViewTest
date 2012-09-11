@@ -16,6 +16,7 @@
 		22E2C07815FF82DA00B956F2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E2C07615FF82DA00B956F2 /* MainStoryboard.storyboard */; };
 		22E2C07B15FF82DA00B956F2 /* PVTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2C07A15FF82DA00B956F2 /* PVTMasterViewController.m */; };
 		22E2C07E15FF82DA00B956F2 /* PVTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2C07D15FF82DA00B956F2 /* PVTDetailViewController.m */; };
+		22E2C08615FF82FF00B956F2 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2C08515FF82FF00B956F2 /* CustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,9 @@
 		22E2C07A15FF82DA00B956F2 /* PVTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVTMasterViewController.m; sourceTree = "<group>"; };
 		22E2C07C15FF82DA00B956F2 /* PVTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVTDetailViewController.h; sourceTree = "<group>"; };
 		22E2C07D15FF82DA00B956F2 /* PVTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVTDetailViewController.m; sourceTree = "<group>"; };
+		22E2C08415FF82FF00B956F2 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		22E2C08515FF82FF00B956F2 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		22E2C08715FF867200B956F2 /* PVTNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVTNotifications.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,9 @@
 				22E2C07C15FF82DA00B956F2 /* PVTDetailViewController.h */,
 				22E2C07D15FF82DA00B956F2 /* PVTDetailViewController.m */,
 				22E2C06B15FF82DA00B956F2 /* Supporting Files */,
+				22E2C08415FF82FF00B956F2 /* CustomCell.h */,
+				22E2C08515FF82FF00B956F2 /* CustomCell.m */,
+				22E2C08715FF867200B956F2 /* PVTNotifications.h */,
 			);
 			path = ProgressViewTest;
 			sourceTree = "<group>";
@@ -171,6 +178,7 @@
 				22E2C07515FF82DA00B956F2 /* PVTAppDelegate.m in Sources */,
 				22E2C07B15FF82DA00B956F2 /* PVTMasterViewController.m in Sources */,
 				22E2C07E15FF82DA00B956F2 /* PVTDetailViewController.m in Sources */,
+				22E2C08615FF82FF00B956F2 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
